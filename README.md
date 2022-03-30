@@ -4,7 +4,7 @@ Logs of interest are forwarded to Postgres using a custom RDS parameters setting
 
 
 ```mermaid
-flowchart TB
+flowchart LR
     style postgres fill:#fa0987,stroke:#fa0987,stroke-width:4px
     style subscription fill:#3faa33,stroke:#3faa33,stroke-width:4px
 
@@ -19,7 +19,7 @@ flowchart TB
 
     
     style cloudwatch fill:#fa0987,stroke:#fa0987,stroke-width:4px        
-        
+    
     subgraph Aurora
       postgres
     end
